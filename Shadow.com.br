@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Navegador</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background: linear-gradient(135deg, #1a1a2e, #16213e); min-height: 100vh; padding: 20px; color: white; }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { text-align: center; margin-bottom: 40px; color: #00fff5; font-size: 28px; }
+        .card { background: rgba(255,255,255,0.08); border-radius: 16px; padding: 30px; margin-bottom: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); transition: transform 0.3s; }
+        .card:hover { transform: translateY(-5px); border-color: #00fff5; }
+        h2 { margin-bottom: 15px; font-size: 20px; }
+        p { color: #ccc; margin-bottom: 15px; font-size: 14px; }
+        a { display: inline-block; padding: 12px 24px; background: #00fff5; color: #000; text-decoration: none; border-radius: 8px; font-weight: bold; }
+        a:hover { background: #00d4cc; }
+        .aviso { margin-top: 40px; padding: 15px; background: rgba(255,193,7,0.15); border-radius: 8px; border-left: 4px solid #ffc107; font-size: 13px; line-height: 1.5; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Meu Navegador</h1>
+
+        <div class="card">
+            <h2>🎮 Poki — Jogos Online</h2>
+            <p>Milhares de jogos grátis direto no navegador, sem baixar nada.</p>
+            <a href="https://poki.com" target="_blank">Abrir Poki →</a>
+        </div>
+
+        <div class="card">
+            <h2>📺 YouTube</h2>
+            <p>Vídeos, músicas e transmissões oficiais.</p>
+            <a href="https://www.youtube.com" target="_blank">Abrir YouTube →</a>
+        </div>
+
+        <div class="card">
+            <h2>🧱 Roblox</h2>
+            <p>Plataforma oficial — jogue e crie mundos.</p>
+            <a href="https://www.roblox.com" target="_blank">Abrir Roblox →</a>
+        </div>
+
+        <div class="aviso">
+            ⚠️ <strong>Importante:</strong> Este é apenas uma página de atalhos. Se os sites estiverem bloqueados na sua rede/dispositivo, esta página não conseguirá contornar — isso é controlado pelo sistema ou rede da escola. Use sempre com autorização e dentro do horário permitido.
+        </div>
+    </div>
+</body>
+</html>
